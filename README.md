@@ -21,7 +21,7 @@ There are two versions, each building on the previous:
 
 | Version | What varies | What the network predicts |
 |---------|-------------|--------------------------|
-| Root (`*.py`) | σ only (A fixed) | 1 parameter: spike width |
+| (`LearnSigma`) | σ only (A fixed) | 1 parameter: spike width |
 | `LearnSigma_A/` | A **and** σ | 2 parameters: amplitude + width |
 
 ---
@@ -36,7 +36,7 @@ pip install numpy matplotlib torch
 
 ---
 
-## Run the simple version (root folder)
+## Run the simple version (LearnSigma)
 
 ### Step 1 — Generate the dataset
 ```bash
