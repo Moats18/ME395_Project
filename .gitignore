@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+
+# Outputs
+*.pdf
+*.png
+*.gif
+*.npy
+*.npz
+
+figures/
+*.pdf
+*.png
+*.gif
+*.npy
+*.npz
+
+# OS
+.DS_Store
