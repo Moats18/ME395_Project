@@ -81,7 +81,7 @@ learnSigma/
 
 ---
 
-## The physics (in plain English)
+## The physics 
 
 The rod of tissue is divided into 256 small segments.
 Each segment has a speed of sound c(x):
@@ -107,7 +107,7 @@ where A is the amplitude (how much faster), σ is the width, and μ is the posit
 
 ---
 
-## The machine learning (in plain English)
+## The machine learning 
 
 **Simple version (1 unknown):**
 Sigma varies (5–30 mm); A and mu are fixed. The MLP reads the 512-point signal
@@ -135,6 +135,13 @@ Optimizer: Adam (lr=1e-3), ReduceLROnPlateau, 250 epochs
 ```
 
 ---
+## AI tools disclaimer
+AI tools (including large language models) were used in the development of this project.
+Generated code and text were reviewed and adapted by the author, who takes responsibility
+for the final implementation. All results were verified and the underlying concepts were
+understood before inclusion.
+
+---
 
 ## Things to explore / extend
 
@@ -142,4 +149,4 @@ Optimizer: Adam (lr=1e-3), ReduceLROnPlateau, 250 epochs
 - Does adding noise to y(t) hurt A and σ prediction equally?
 - Can a 1D CNN outperform the MLP by exploiting the temporal structure of y(t)?
 
-Each of these is a genuine research question with a real answer.
+
